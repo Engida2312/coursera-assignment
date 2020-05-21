@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/***********Body**************/
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #d0fdeea2;
+  font-family: "Courier New", Courier, monospace;
+}
+/********navigetion bar*******/
+#header-nav {
+  background-color: #7a9d96;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header h1 :hover,
+.navbar-header h1 :focus {
+  text-decoration: none;
+}
+.navbar-header h1 {
+  font-family: "Lora", serif;
+  color: #fdd655dc;
+  text-shadow: 2px 2px 2px #222222;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+  background-color: #7a9d96;
+}
+#nav-list a:hover {
+  background-color: #fada72dc;
+  color: #000;
+  font-size: 1.1em;
+  box-shadow: 0 2px 2px 2px #222222;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #fdd655dc;
+  box-shadow: 0 2px 2px 2px #222222;
+}
+/*******end of nav bar*********/
+
+/********Main Content**************/
+.page-heading {
+  color: #00080a;
+  font-weight: bolder;
+}
+#chicken {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 3px #cae4db;
+  box-shadow: 0 2px 2px 2px #7a9d96;
+  font-family: "Patrick Hand", cursive;
+  color: #011718f6;
+  opacity: inherit;
+  padding: 20px;
+}
+#ckicken-title {
+  color: #011e1f bold;
+  font-weight: bold;
+}
+#beef {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 3px #cae4db;
+  box-shadow: 0 2px 2px 2px #7a9d96;
+  font-family: "Patrick Hand", cursive;
+  color: #011718f6;
+  opacity: inherit;
+  padding: 20px;
+}
+#beef-title {
+  color: #011e1f bold;
+  font-weight: bold;
+}
+#sushi {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 3px #cae4db;
+  box-shadow: 0 2px 2px 2px #7a9d96;
+  font-family: "Patrick Hand", cursive;
+  color: #011718f6;
+  opacity: inherit;
+  padding: 20px;
+}
+#sushi-title {
+  color: #011e1f bold;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  #header {
+    margin-left: 50px;
+  }
+}
+/************End of main content***************/
